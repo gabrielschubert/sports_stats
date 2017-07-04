@@ -95,7 +95,7 @@ class Webcam:
 		self.MainWindow.lblWebcam.mousePressEvent = self.get_pixel_position
 
 
-
+	### GET CLICKED PIXEL POSITION ###
 	def get_pixel_position(self , event):
 		x = event.pos().x()
 		y = event.pos().y() 
